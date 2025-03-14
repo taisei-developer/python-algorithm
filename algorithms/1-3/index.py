@@ -96,6 +96,36 @@ print(text.format(x=x, y=y))
 
 # 1-3-8 クラスの基礎
 
+# class Cood:
+#   def __init__(self, x, y):
+#     self.x = x
+#     self.y = y
+
+# # インスタンス化
+# obj = Cood(300, 400)
+# print(obj.x, obj.y)
+
+# # インスタンス変数の変更
+# obj.x = 1000
+# print(obj.x, obj.y)
+
+from math import sqrt
+
+class Cood:
+  def __init__(self, x, y):
+    self.x = x
+    self.y = y
+
+  def calc_distance(self):
+    return sqrt(self.x ** 2 + self.y ** 2)
+
+obj = Cood(300, 400)
+print(obj)
+# => <__main__.Cood object at 0x100600000>
+print(obj.calc_distance())
+
+
+
 
 
 
