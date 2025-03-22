@@ -31,7 +31,7 @@ def insertion_sort(my_list):
     # 途中結果の確認のためダンプ
     print(my_list)
 
-data = [6, 1, 4, 3, 2]
+data = [6, 1, 4]
 print(data)
 insertion_sort(data)
 print(data)
